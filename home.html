@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NesFlix</title>
+
+    <link rel="icon" href="img/Retro Mario.png">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Css Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+</head>
+<body>
+
+    
+        
+            <header class="cabeçalho">
+                    <div id="logo">
+                        <a href="#home.html">NesFlix</a>
+                    </div>
+    
+                    <!--Iníco nav-->
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="botao">Logout</a></li>
+                        </ul>
+                    </nav><!--Fim nav-->
+            </header>
+
+            <div class="capa-container">
+                <img src="img/capa_i.png" alt="Imagem mario"  srcset="" id="capa">
+            </div>
+
+            <!--Início Container-->
+            <div id="container">
+
+            <!--indicadores-->
+            <div class="container-indicators">
+                <div class="indicator active" data-index=0></div>
+                <div class="indicator" data-index=1></div>
+                <div class="indicator" data-index=2></div>
+            </div>
+
+            <!--Inicio navegacao-home-->
+            <nav id="navegacao-home"> 
+                
+                <div class="carousel-home">
+
+                    <div class="slider">
+
+                        <div class="carouselBox" id="jogo_0">
+                                    <img src="img/game_1.png" alt="" id="imagemJogo" class="imagemClone" srcset="">
+            
+                        </div>
+                    </div>
+                     <!--Prev and next Buttons-->
+                     <div class="nav-button">
+                        <div>
+                            <a class="carousel-prev-btn">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                        </div>  
+                        <div>  
+                            <a class="carousel-next-btn">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div> <!--Fim Prev and next buttons-->
+                   
+                    </div>        
+                </div>
+                                  
+    
+            </nav><!--Fim navegacao-home-->
+
+        
+    </div>
+
+
+    <footer>
+
+        <div class="social-media">
+            <a href="">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <div>
+            <p>
+                2021 - <a href="">NesFlix</a> &copy;Todos os Direitos reservados - By Evandro Lucas
+            </p>
+          </div>
+        
+    </footer>
+
+
+   <!--JavaScript-->
+    <script src="app_ii.js"></script>
+    
+</body>
+</html>
